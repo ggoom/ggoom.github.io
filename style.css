@@ -4,6 +4,11 @@ body {
     background-color: #6E8866;
 }
 
+#particles-js {
+    /* background: #6E8866; */
+    height: 100vh;
+}
+
 h1 {
     font-family: 'Hammersmith One', sans-serif;
 }
