@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Hammersmith+One&display=swap');
+
+body {
+    background-color: #6E8866;
+}
+
+h1 {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+}
+
+#home-container {
+    margin-left: 15%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: rgba(255,255,255,0.3);
+}
