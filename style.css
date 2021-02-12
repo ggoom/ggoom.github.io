@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Hammersmith+One&display=swap');
 
 body {
-    background-color: #6E8866;
-}
-
-#particles-js {
-    /* background: #6E8866; */
-    height: 100vh;
+    /* background-color: #6E8866; */
+    background-image: url('imgs/sky.png');
+    background-size: cover;
 }
 
 h1 {
     font-family: 'Hammersmith One', sans-serif;
+    font-size: 3em;
 }
 
 p {
     font-family: 'Barlow', sans-serif;
+    font-size: 1.2em;
 }
 
 #home-container {
@@ -23,5 +22,5 @@ p {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: rgba(255,255,255,0.3);
+    color: rgba(255,255,255,0.25);
 }
