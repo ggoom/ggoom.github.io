@@ -2,18 +2,26 @@
 
 body {
     /* background-color: #6E8866; */
-    background-image: url('imgs/sky.png');
+    background: url('imgs/sky.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 }
 
 h1 {
     font-family: 'Hammersmith One', sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 p {
     font-family: 'Barlow', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100vw;
 }
 
 #home-container {
@@ -22,5 +30,11 @@ p {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: rgba(255,255,255,0.25);
+    color: rgba(255,255,255,0.3);
+}
+
+.home-icon:after {
+    content:" ";
+    display: inline-block; 
+    width: 0.3em;
 }
