@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=Hammersmith+One&display=swap');
 
-body {
+#home {
     /* background-color: #6E8866; */
     background: url('imgs/sky.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -9,14 +9,21 @@ body {
     background-size: cover;
 }
 
-h1 {
+h1,h2,h3 {
     font-family: 'Hammersmith One', sans-serif;
+}
+
+h1 {
     font-size: 2.5em;
 }
 
 p {
     font-family: 'Barlow', sans-serif;
     font-size: 1.1em;
+}
+
+.navbar {
+    margin-bottom: 2em;
 }
 
 #particles-js {
